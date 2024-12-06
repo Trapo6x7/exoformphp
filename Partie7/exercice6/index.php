@@ -23,7 +23,7 @@
         <input type="text" name="lastName" id="lastName" required maxlength="10">
 
         <label for="avatar">Choose a profile picture:</label>
-        <input type="file" id="avatar" name="avatar" accept=".pdf" />
+        <input type="file" id="avatar" name="avatar"/>
 
         <input type="submit" value="Envoyer">
 
