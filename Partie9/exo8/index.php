@@ -21,7 +21,7 @@
 
         $result22jours = $dateNowTime - $passSec;
 
-        echo "La date du jour - 22 jours est de " . date('m/d/Y', $result22jours);
+        echo "La date du jour - 22 jours est de " . date('d/m/Y', $result22jours) . ".";
         // echo "Le nombre de jours passés depuis le 16 mai 2016 est de : " . $passDays . " jours.";
 
         // date_default_timezone_set("Europe/Paris");

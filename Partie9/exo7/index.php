@@ -21,7 +21,7 @@
 
         $result20jours = $dateNowTime + $passSec;
 
-        echo "La date du jour + 20 jours est de " . date('m/d/Y', $result20jours);
+        echo "La date du jour + 20 jours est de " . date('d/m/Y', $result20jours) . "."; 
         // echo "Le nombre de jours passés depuis le 16 mai 2016 est de : " . $passDays . " jours.";
 
         // date_default_timezone_set("Europe/Paris");
