@@ -14,7 +14,7 @@
         <input type="text" name="Login" id="Login" required maxlength="10">
 
         <label for="Password"> Password :</label>
-        <input type="text" name="Password" id="Password" required maxlength="10">
+        <input type="password" name="Password" id="Password" required maxlength="10">
 
         <input type="submit" value="Envoyer">
 
